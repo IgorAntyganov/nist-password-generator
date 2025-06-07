@@ -23,4 +23,4 @@ This password generator **incorporates key principles from NIST guidelines**, su
 These terms indicate the password's resistance level against brute-force or dictionary attacks. "Excellent" means the password is very difficult to crack; "Very Weak" indicates it's easily vulnerable. **It is always recommended to aim for a "Good" or "Excellent" rating**.
 
 # Why is a minimum of 15 characters recommended?
-NIST recommendations and security experts suggest that length is one of the most critical factors for password strength. From 15 characters onwards, the number of possible combinations becomes so immense that modern brute-force attacks would take thousands or millions of years to decipher it.
+NIST recommendations and security experts suggest that length is one of the most critical factors for password strength. From 15 characters onwards, the number of possible combinations becomes so immense that modern brute-force attacks would take **thousands or millions of years to decipher it**.
