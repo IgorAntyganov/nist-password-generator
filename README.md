@@ -1,4 +1,4 @@
-# nist-password-generator
+ nist-password-generator
 NIST-compliant, secure web password generator with real-time strength evaluation.
 
 ## UI Design Showcase
