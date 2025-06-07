@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://unpkg.com/zxcvbn/dist/zxcvbn.js"></script> 
+
+</head>
+
+<body>
+    <div class="container">
+        <h1>Password Generator</h1>
+        <p class="subtitle">Create strong passwords following NIST guidelines.</p>
+        <div class="password-feedback">
+
+            <p>This password is: <strong id="strengthScore"></strong></p>
+            <p class="crack-time"><strong id="crackTime"></strong></p>
+
+        </div>
+        <div class="password-output-container">
+            <input type="text" id="passwordOutput" readonly> <button id="copyBtn" class="action-btn">Copy</button>
+        </div>
+
+        <div class="controls-group">
+            <div class="length-control">
+                <label for="length">Lenght: <span id="lengthValue">12</span></label>
+                <div class="length-slider-wrapper">
+                    <button id="decreaseLengthBtn" class="length-btn">-</button>
+                    <input type="range" id="length" value="12" min="1" max="128">
+                    <button id="increaseLengthBtn" class="length-btn">+</button>
+                </div>
+            </div>  
+            <button id="generateBtn" class="action-btn regenerate-btn">Regenerate</button>
+        </div>
+
+        <div class="characters-options">
+            <p>Characters options:</p>
+            <div class="checkbox-group">
+                <input type="checkbox" id="uppercase" checked>
+                <label for="uppercase">ABC</label>
+                <input type="checkbox" id="lowercase" checked>
+                <label for="lowercase">abc</label>
+                <input type="checkbox" id="numbers" checked>
+                <label for="numbers">123</label>
+                <input type="checkbox" id="symbols" checked>
+                <label for="symbols">#$&</label>
+            </div>
+        </div>
+        
+        <div class="input-group hidden"> 
+            <input type="radio" id="typePassword" name="passwordType" value="password" checked>
+            <label for="typePassword">Password</label>
+        </div>
+        <ul id="suggestions" class="hidden"></ul>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
