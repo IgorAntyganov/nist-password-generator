@@ -11,7 +11,7 @@ NIST-compliant, secure web password generator with real-time strength evaluation
 **No**. This generator operates entirely in your browser and does not store any generated passwords or user data on external servers. Once you close the page, the password does not persist.
 
 # Is this online generator safe to use?
-Yes, it is safe. The password generation process occurs directly in your browser, which means your passwords are never sent to a server.
+**Yes, it is safe**. The password generation process occurs directly in your browser, which means your passwords are never sent to a server.
 
 # What is NIST and why is it relevant to passwords?
 NIST (National Institute of Standards and Technology) is a U.S. government agency that develops technical standards and guidelines, including those for cybersecurity. Their password recommendations are widely recognized and considered best practices for creating strong and secure passwords, helping to protect against common attacks.
