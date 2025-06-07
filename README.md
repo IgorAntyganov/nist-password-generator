@@ -1,5 +1,5 @@
 # nist-password-generator
-A secure web password generator, compliant with NIST recommendations, featuring strength evaluation.
+NIST-compliant, secure web password generator with real-time strength evaluation.
 
 ## Screenshots
 
