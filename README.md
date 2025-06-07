@@ -1,6 +1,9 @@
 # nist-password-generator
 NIST-compliant, secure web password generator with real-time strength evaluation.
 
+# How to use it?
+[Just click here](https://jacobosagan.github.io/nist-password-generator/)
+
 ## UI Design Showcase
 
 ![Screenshot 1 - Main Interface](images/image1.png)
